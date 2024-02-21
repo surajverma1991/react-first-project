@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <h1>E-Comm Project</h1>
         <Routes>
           <Route path="/add" element={<AddProduct />} />
           <Route path="/update" element={<UpdateProduct />} />

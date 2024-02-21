@@ -1,16 +1,16 @@
 {
   "signup": [
     {
-      "id": "9320",
-      "name": "Suraj",
-      "emial": "suraj@gmail.com",
-      "mobile": "8454014298"
+      "id": "4bc4",
+      "name": "suraj",
+      "password": "verma",
+      "email": "suraj@gmail.com"
     },
     {
-      "id": "7067",
-      "name": "Amar",
-      "emial": "Amar@gmail.com",
-      "mobile": "87985696"
+      "id": "97eb",
+      "name": "peter",
+      "password": "peter@123",
+      "email": "peter@test.com"
     }
   ]
 }
