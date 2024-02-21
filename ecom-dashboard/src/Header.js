@@ -8,10 +8,18 @@ export default function Header() {
       <Navbar bg="dark" data-bs-theme="dark">
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="me-auto nav-bar-wrapper">
-          <Link to="/add">Add Product</Link>
-          <Link to="/update">Update Product</Link>
-          <Link to="/login">Login Product</Link>
-          <Link to="/register">Register Product</Link>
+          {
+            localStorage.getItem('user-info') ?
+            <>
+              <Link to="/add">Add Product</Link>
+              <Link to="/update">Update Product</Link>
+            </>
+            :
+            <>
+              <Link to="/login">Login Product</Link>
+              <Link to="/register">Register Product</Link>
+            </>
+          }
         </Nav>
       </Navbar>
     </div>
