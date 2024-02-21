@@ -29,7 +29,6 @@ export default function Register() {
       body: JSON.stringify(item)
     });
     result = await result.json();
-    console.log(result);
 
     localStorage.setItem('user-info', JSON.stringify(result));
 
