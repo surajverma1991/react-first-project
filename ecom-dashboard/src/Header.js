@@ -8,8 +8,6 @@ export default function Header() {
   const user = JSON.parse(localStorage.getItem('user-info'));
   const navigate = useNavigate();
 
-  console.log(user);
-
   function logout() {
     localStorage.clear();
     navigate("/register");

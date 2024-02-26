@@ -42,10 +42,10 @@ export default function Register() {
       <div className='col-sm-6 offset-sm-3'>
           <h1>User Sign Up</h1>
           <input type='text' className='form-control' placeholder='Name' value={name} onChange={(e)=> setName(e.target.value)}/>
-          <br></br>
-          <input type='text' className='form-control' placeholder='Password' value={password} onChange={(e)=> setPassword(e.target.value)}/>
-          <br></br>
+          <br/>
           <input type='text' className='form-control' placeholder='Email' value={email} onChange={(e)=> setEmail(e.target.value)}/>
+          <br/>
+          <input type='password' className='form-control' placeholder='Password' value={password} onChange={(e)=> setPassword(e.target.value)}/>
           <br/>
           <button className='btn btn-primary' onClick={signUp}>Sign Up</button>
       </div>
